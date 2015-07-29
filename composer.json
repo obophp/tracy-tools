@@ -1,0 +1,21 @@
+{
+    "name": "obo/tracy-tools",
+    "type": "library",
+    "description": "Tools for Tracy",
+    "keywords": ["framework", "domain logic", "orm", "database"],
+    "homepage": "http://obophp.org",
+    "license": ["Apache-2.0"],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "obo/obo": "~0.9",
+        "tracy/tracy": "~2.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.10-dev"
+        }
+    }
+}
